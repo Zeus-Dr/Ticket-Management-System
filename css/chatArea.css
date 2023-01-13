@@ -1,0 +1,131 @@
+.wrapped {
+    position: fixed;
+    display: none;
+    right: 20px;
+    bottom: 50px;
+    background: white;
+    max-width: 450px;
+    width: 100%;
+    border-radius: 16px;
+    box-shadow: 0 0 128px 0 rgba(0, 0, 0, 0.1), 0 32px 64px -48px rgba(0, 0, 0, 0.5);
+}
+
+img {
+    border-radius: 50%;
+}
+
+
+/*Chat Area CSS*/
+
+.chat-area header {
+    display: flex;
+    align-items: center;
+    padding: 10px 30px;
+}
+
+.chat-area header .back-icon {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: none;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.chat-area header img {
+    height: 45px;
+    width: 45px;
+}
+
+.chat-area header span {
+    font-size: 17px;
+    font-weight: bolder;
+}
+
+.chat-area header .details {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.chat-area header .details p {
+    margin-top: 3px;
+}
+
+.chat-box {
+    height: 200px;
+    overflow-y: auto;
+    background: #f7f7f7;
+    padding: 10px 30px 20px 30px;
+    box-shadow: inset 0 32px 32px -32px rgb(0 0 0 /5%), inset 0 -32px 32px -32px rgb(0 0 0 /5%);
+}
+
+.chat-box .chat p {
+    word-wrap: break-word;
+    padding: 8px 16px;
+    box-shadow: inset 0 0 32px rgb(0 0 0 / 8%), inset 0 16px 16px -16px rgb(0 0 0 / 10%);
+}
+
+.chat-box .outqoinq {
+    display: flex;
+}
+
+.outqoinq .details {
+    margin-left: auto;
+    max-width: calc(100% - 130px);
+}
+
+.outqoinq .details p {
+    background: #333;
+    color: #fff;
+    border-radius: 18px 18px 0 18px;
+}
+
+.chat-box .incominq {
+    display: flex;
+    align-items: center;
+}
+
+.chat-box .incominq img {
+    height: 35px;
+    width: 35px;
+}
+
+.incominq .details {
+    margin-left: 10px;
+    margin-right: auto;
+    max-width: calc(100% - 130px);
+}
+
+.incominq .details p {
+    color: #333;
+    background: #fff;
+    border-radius: 18px 18px 18px 0;
+}
+
+.chat-area .typinq-area {
+    padding: 18px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.typinq-area input {
+    height: 45px;
+    width: calc(100% - 60px);
+    font-size: 17px;
+    border: 1px solid #ccc;
+    padding: 0 13px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+
+.typinq-area button {
+    width: 50px;
+    border: none;
+    outline: none;
+    background: #333;
+    color: #fff;
+    font-size: 19px;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0;
+}
